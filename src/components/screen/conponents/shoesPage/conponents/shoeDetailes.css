@@ -1,0 +1,20 @@
+.contain_shoe {
+  border: 1px solid saddlebrown;
+  background-color: antiquewhite;
+  text-align: center;
+  border-radius: 1rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+}
+.contain_shoe img {
+  border-radius: 1rem;
+  width: 20rem;
+}
+
+a {
+  color: inherit;
+}
+i {
+  cursor: pointer;
+  margin: 1rem;
+}

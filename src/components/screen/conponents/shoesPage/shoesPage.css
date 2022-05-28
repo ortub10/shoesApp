@@ -1,0 +1,63 @@
+.spinner {
+  border-top: 2px solid aqua;
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  margin: auto;
+  margin-top: 3rem;
+  animation: spinin 1s infinite linear;
+}
+
+@keyframes spinin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.contain_inptus {
+  text-align: center;
+  height: fit-content;
+  top: 0;
+  position: sticky;
+}
+
+.contain_inptus > button a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.inputs {
+  width: 20rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 2rem;
+  padding: 2rem;
+  margin: 1rem;
+  background-color: wheat;
+}
+
+.shoes_pages {
+  display: flex;
+  min-height: 100vh;
+  align-items: flex-start;
+  background-color: aquamarine;
+}
+.contain_shoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 2rem;
+}
+
+@media only all and (max-width: 600px) {
+  .shoes_pages {
+    flex-direction: column;
+    align-items: center;
+  }
+}

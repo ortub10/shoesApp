@@ -1,0 +1,8 @@
+.contain_per_one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contain_per_one img {
+  width: 25rem;
+}
